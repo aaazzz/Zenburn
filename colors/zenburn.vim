@@ -356,7 +356,7 @@ else
     hi Normal        guifg=#dcdccc guibg=#3f3f3f           ctermfg=188 ctermbg=237
     hi Conceal       guifg=#8f8f8f guibg=#484848           ctermfg=246 ctermbg=238
     hi ColorColumn   guibg=#484848                         ctermbg=238
-    hi CursorLine    guibg=#434443                         ctermbg=238 cterm=none
+    hi CursorLine    guibg=#484848                         ctermbg=238 cterm=none
     hi CursorLineNr  guifg=#d2d39b guibg=#262626           ctermfg=230 ctermbg=235 cterm=none
     if exists("g:zenburn_unified_CursorColumn") && g:zenburn_unified_CursorColumn
         hi CursorColumn  guibg=#434343                     ctermbg=238 cterm=none
@@ -431,8 +431,8 @@ else
         endif
     else
         " low contrast
-        hi Visual        guibg=#2f2f2f  ctermbg=235
-        hi VisualNOS     guibg=#2f2f2f  ctermbg=235
+        hi Visual        guibg=#484848  ctermbg=235
+        hi VisualNOS     guibg=#484848  ctermbg=235
     endif
 endif
 
